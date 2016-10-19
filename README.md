@@ -1,6 +1,6 @@
-angular-presentation
+dcjs-presentation
 ====================
 
-Presentation on AngularJS. View it on 
+Presentation dc.js. View it on
 
-http://mattiash.github.io/angular-presentation/presentation.html
+http://ackuser.github.io/angular-presentation/presentation.html

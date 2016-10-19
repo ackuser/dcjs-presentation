@@ -4,7 +4,7 @@
     <meta http-equiv="content-type" content="text/html; charset=utf-8" />
     <meta name="keywords" content="remark,remarkjs,markdown,slideshow,presentation" />
     <meta name="description" content="A simple, in-browser, markdown-driven slideshow tool." />
-    <title>AngularJS Presentation</title>
+    <title>dc.js Presentation</title>
     <link rel="stylesheet" href="presentation.css"></link>
   </head>
   <body>
@@ -222,6 +222,9 @@ avgGroup = typeDimension
             .group()
             .reduce(reduceAdd, reduceRemove, reduceInitial)
 ```
+
+[crossfiltering example](https://embed.plnkr.co/CSmhcEGSMeJaSFo2KdEI/)
+
 ]
 ---
 .left-column[
@@ -386,10 +389,32 @@ avgGroup = typeDimension
 
 ---
 
+.left-column[
+### Data Viz?
+### Coordinated Views
+### crossfilter.js
+## dc.js
+]
+
+.right-column[
+
+- Then...
+
+.small-image[
+  ![dcjs](choro_dcjs.png)
+]
+
+- Let's see inside the code
+
+    [crossfiltering example](http://bl.ocks.org/ackuser/raw/53e66ddba701e7bc99c396f0640639d5/)
+]
+
+---
+
 # Code size
 
- - Current web for crossfilter: **172k** mostly minified js
- - Current web for dcjs: **172k** mostly minified js
+ - Current web for crossfilter: **a few KBs** without minified js
+ - Current web for dcjs: **a few KBs** without minified js
  - Data per page is a smaller with AngularJS.
 
 # Development Effort
@@ -399,6 +424,7 @@ avgGroup = typeDimension
 - Quick turnaround time
 - Possible to write tests
 - Very little code
+- vs d3...vs Tableau
 - Fun!
 
 ---
@@ -406,15 +432,15 @@ name: last-page
 template: inverse
 
 ## More info:
-[angularjs.org](http://angularjs.org)
+[crossfilter](http://square.github.io/crossfilter/)
 
-Instruction videos on [egghead.io](http://egghead.io)
+[dcjs](https://dc-js.github.io/dc.js/)
 
-AngularJS Google+ group
+Framework for Data Viz Web Applications - Synergic+ group
 
 This presentation is available on
 
-https://github.com/ackuser/angular-presentation
+https://github.com/ackuser/dcjs-presentation
 
     </textarea>
     <script src="http://gnab.github.com/remark/downloads/remark-0.5.9.min.js" type="text/javascript"></script>
